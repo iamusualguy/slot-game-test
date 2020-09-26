@@ -1,0 +1,43 @@
+.payoutIcon { 
+  width: 2em;
+  height: 2em;
+  background-size: cover;
+  transform: rotate(-90deg); 
+}
+
+.payoutLine {
+  display: flex;
+  width: 6em;
+  justify-content: center;
+  line-height: 1.9;
+}
+
+.payoutEntry {
+  color: #0ff;
+  text-align: center;
+  margin: 0 0.5em;
+}
+
+.payoutEntry.win {
+  background: #0ff;
+  color: #000;
+}
+
+.patternLabel {
+  font-weight: 100;
+  font-size: 0.75em;
+}
+
+.patternAmount {
+  font-size: 2em;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.payoutTable {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 2em;
+  transform: translate(-50%, 0);
+}

@@ -1,0 +1,31 @@
+body {
+  background: #111;
+  color: #ccc;
+  font-family: sans-serif;
+}
+
+* {
+  user-select: none;
+}
+
+#test {
+  color: red;
+}
+
+#machine {
+  display: flex;
+  width: 31em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 19em;
+  transform: translate(-50%, -50%);
+}
+
+#balance {
+  color: #0ff;
+  position: absolute;
+  left: 50%;
+  bottom: 1.5em;
+  transform: translate(-50%, 0);
+}

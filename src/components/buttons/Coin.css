@@ -1,0 +1,30 @@
+.coinButton {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 2em;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 1.5em;
+  position: absolute;
+  right: 1em;
+  bottom: 2em;
+  box-shadow: 0 0 0.5em 0.1em #0ff;
+  color: #0ff;
+  transition: transform 0.1s;
+  left: 50%;
+  transform: translate(6.5em, 0);
+}
+
+.coinButton.active:active {
+    background: #0ff;
+    color: #000;
+}
+
+.coinButton.active:hover {
+  transform: translate(6.5em, 0) scale(1.05);
+}
+
+.coinButton.inactive {
+  box-shadow: 0 0 0.5em 0.1em #ccc;
+  color: #ccc;
+}

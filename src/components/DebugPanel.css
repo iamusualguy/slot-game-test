@@ -1,0 +1,17 @@
+.debugPanel {
+    width: 15em;
+    border: 1px solid white;
+    position: absolute;
+    bottom: 0;
+    padding: 0.5em 1em;
+    opacity: 0.2;
+}
+
+.debugPanel:hover {
+  opacity: 1;
+}
+
+.debugPanel input,
+.debugPanel select {
+  margin: 0.5em 1em;
+}

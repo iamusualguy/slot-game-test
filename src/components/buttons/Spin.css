@@ -1,0 +1,45 @@
+.spinButton {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 2em;
+  width: 6em;
+  height: 1.5em;
+  border-radius: 1.5em;
+  position: absolute;
+  left: 50%;
+  bottom: 2em;
+  transform: translate(-50%, 0);
+  box-shadow: 0 0 0.5em 0.1em #0ff;
+  color: #0ff;
+  transition: transform 0.1s;
+}
+
+.spinButton.active {
+  animation: clickMeKeyframes 1s infinite;
+}
+
+.spinButton.active:hover {
+  transform: translate(-50%, 0) scale(1.05);
+  animation: clickMeKeyframes 0.4s infinite;
+}
+
+.spinButton.active:active {
+  background: #0ff;
+  color: #000;
+}
+
+.spinButton.inactive {
+  box-shadow: 0 0 0.5em 0.1em #ccc;
+  color: #ccc;
+}
+
+@keyframes clickMeKeyframes {
+  0%,
+  100% {
+    box-shadow: 0 0 0.5em 0.25em #0ff;
+  }
+
+  50% {
+    box-shadow: 0 0 0.5em 0.35em #0ff;
+  }
+}
