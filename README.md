@@ -1,3 +1,6 @@
+## DEMO
+https://yet-another-slot-game.netlify.app/
+
 ## Install
 
 To install the dependencies
